@@ -1,0 +1,10 @@
+$def with (toUser,fromUser,createTime,voice_id)
+<xml>
+<ToUserName><![CDATA[$toUser]]></ToUserName>
+<FromUserName><![CDATA[$fromUser]]></FromUserName>
+<CreateTime>$createTime</CreateTime>
+<MsgType><![CDATA[voice]]></MsgType>
+<Voice>
+<MediaId><![CDATA[$voice_id]]></MediaId>
+</Voice>
+</xml>
